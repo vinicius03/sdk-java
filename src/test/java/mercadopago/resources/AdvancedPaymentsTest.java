@@ -166,7 +166,7 @@ public class AdvancedPaymentsTest extends BaseResourceTest {
                         .setAddress(new Address()
                                 .setZipCode("06233200")
                                 .setStreetName("Street")
-                                .setStreetNumber(123))
+                                .setStreetNumber("123"))
                         .setIdentification(new Identification()
                                 .setType(identification.get("type").getAsString())
                                 .setNumber(identification.get("number").getAsString())))
